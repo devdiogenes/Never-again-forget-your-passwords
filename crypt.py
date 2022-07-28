@@ -1,13 +1,12 @@
 import pyperclip
 import cryptocode
 
-chave = input("Digite a senha master \n>")
+masterpw = input("Digite a senha master \n>")
 
-while(1==1):
-    senha = input("\nDigite a senha a ser criptografada \n>")
+pw = input("\nDigite a senha a ser criptografada \n>")
 
-    senha_criptografada = cryptocode.encrypt(senha, chave)
+crypto_pw = cryptocode.encrypt(pw, masterpw)
 
-    copiar = print("\nSenha criptografada: \n" + senha_criptografada + " \n \n")
+print("\nSenha criptografada: \n" + crypto_pw + " \n \n")
 
-    pyperclip.copy(senha_criptografada)
+pyperclip.copy(crypto_pw)
