@@ -1,5 +1,6 @@
 #Passwords file:
 Passwords.txt
+Passwords.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
