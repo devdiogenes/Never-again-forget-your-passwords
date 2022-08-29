@@ -103,4 +103,3 @@ class NeverAgainForgetYourPasswords(DatabaseNeverAgainForgetYourPasswords):
 
 
 NeverAgainForgetYourPasswords().run()
-#NeverAgainForgetYourPasswords()
