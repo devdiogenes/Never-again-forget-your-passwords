@@ -88,11 +88,14 @@ class NeverAgainForgetYourPasswords(DatabaseNeverAgainForgetYourPasswords):
         print("\nDo you want...")
         print("1 - Save a new password?...")
         print("2 - Remember a password you have already save?...")
+        print("3 - Exit")
         result = input(">...")
         if result == "1":
             self.__encrypt()
         elif result == "2":
             self.__decrypt()
+        elif result == "3":
+            quit()
         else: 
             print("")
             self.__encrypt_or_decrypt()
