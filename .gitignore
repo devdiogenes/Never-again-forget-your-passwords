@@ -1,3 +1,7 @@
+#Run file:
+run.cmd
+run.sh
+
 #Passwords file:
 Passwords.txt
 Passwords.json
