@@ -3,8 +3,8 @@ run.cmd
 run.sh
 
 #Passwords file:
-Passwords.txt
 Passwords.json
+Passwords_backup.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
